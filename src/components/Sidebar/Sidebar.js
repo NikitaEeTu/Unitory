@@ -182,7 +182,7 @@ function Sidebar({ toggleSidenav, sidenavOpen, routes, logo, rtlActive }) {
             <img
               alt={logo.imgAlt}
               className="navbar-brand-img"
-              src={logo.imgSrc}
+              src="https://cdn-icons-png.flaticon.com/512/867/867454.png"
             />
           </NavbarBrand>
         ) : null}
@@ -206,20 +206,7 @@ function Sidebar({ toggleSidenav, sidenavOpen, routes, logo, rtlActive }) {
           <Nav navbar>{createLinks(routes)}</Nav>
 
           <hr className="my-3" />
-          <h6 className="navbar-heading p-0 text-muted">
-            <span className="docs-mini">D</span>
-          </h6>
-          <Nav className="mb-md-3" navbar>
-            <NavItem>
-              <NavLink href="#supportPage" target="_blank"></NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/argon-dashboard-react/#/documentation/colors?ref=adpr-sidebar"
-                target="_blank"
-              ></NavLink>
-            </NavItem>
-          </Nav>
+          <h6 className="navbar-heading p-0 text-muted"></h6>
         </Collapse>
       </div>
     </div>

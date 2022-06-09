@@ -22,7 +22,7 @@ import AdminNavbar from "../components/Navbars/AdminNavbar.js";
 import AdminFooter from "../components/Footers/AdminFooter.js";
 import Sidebar from "../components/Sidebar/Sidebar.js";
 
-import Logo from "assets/img/brand/Logo.png";
+import Logo from 'assets/img/brand/Logo.png';
 import routes from "routes.js";
 
 function Admin() {
@@ -63,7 +63,7 @@ function Admin() {
     }
     return "Brand";
   };
-
+  
   // toggles collapse between mini sidenav and normal
   const toggleSidenav = (e) => {
     if (document.body.classList.contains("g-sidenav-pinned")) {
